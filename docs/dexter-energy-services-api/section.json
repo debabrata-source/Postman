@@ -1,0 +1,41 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": "{khh}"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [],
+    "path": [
+      {
+        "name": "khh",
+        "description": "Specifies the unique identifier for the requested resource within the Dexter Energy Services API. This parameter is required in the path and must be a valid string corresponding to an existing entity.",
+        "isRequired": false,
+        "valueType": "String",
+        "options": {
+          "xml": {
+            "prefix": null
+          },
+          "schemaNames": []
+        },
+        "complexItems": [],
+        "items": []
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "auth": [],
+    "_id": "6a44e346963fccb085f82261"
+  },
+  "responses": [],
+  "showBaseUrl": true,
+  "showLanguageBox": true,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": []
+}
