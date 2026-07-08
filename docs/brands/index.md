@@ -1,0 +1,1 @@
+A distinctive name associated with a specific product or service.

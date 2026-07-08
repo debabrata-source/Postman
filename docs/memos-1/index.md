@@ -1,0 +1,1 @@
+A remark or informative text added to an entity.

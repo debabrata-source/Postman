@@ -1,0 +1,1 @@
+A formal agreement outlining the terms and conditions between an owner and an organisation about renting his unit.

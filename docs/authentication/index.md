@@ -1,0 +1,1 @@
+Authenticate to get access to the API. Authentication details can be provided by the Maxxton client who would like to give access to their environment using the API.

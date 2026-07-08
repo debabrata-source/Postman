@@ -1,0 +1,1 @@
+A physical location or infrastructure used to support operations or services.

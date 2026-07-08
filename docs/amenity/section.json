@@ -1,0 +1,29 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/amenities"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/amenities?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/amenities/categories?returnSections=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/amenities/details?returnSections=&page=&size=&sort=&filter="
+    }
+  ]
+}

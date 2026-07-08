@@ -1,0 +1,41 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/{distributionChannelId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/details?returnSections=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/{distributionChannelId}/details?returnSections="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/{distributionChannelId}/locations?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/paymentmethods?distributionChannelCode=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/distributionchannels/{distributionchannelId}/paymentmethods?page=&size=&sort="
+    }
+  ]
+}

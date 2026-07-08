@@ -1,0 +1,1 @@
+A discount or additional product/service that can be added to a reservation.

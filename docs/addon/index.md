@@ -1,0 +1,1 @@
+A product or extra that can be booked optionally in a reservation or will be added mandatory to the reservation. Examples of optional addons are: bedlinnen, breakfast, baby cot. Example of mandatory addons are: cleaning, tourist tax

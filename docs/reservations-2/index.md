@@ -1,0 +1,1 @@
+An arrangement to secure an accommodation or service for a specific time and date.

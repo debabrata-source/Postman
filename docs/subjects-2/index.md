@@ -1,0 +1,1 @@
+A classification of individuals, pets, travel methods, or equipment based on specific criteria such as age, size, etc.

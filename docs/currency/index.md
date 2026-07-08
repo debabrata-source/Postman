@@ -1,0 +1,1 @@
+The type of money used in financial transactions, such as USD or EUR.

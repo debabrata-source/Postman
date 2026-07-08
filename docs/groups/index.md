@@ -1,0 +1,1 @@
+Grouping of certain entities such as marketing groups, location groups in Maxxton.

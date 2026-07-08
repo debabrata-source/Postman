@@ -1,0 +1,233 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations?returnBill=&returnInstalments=&skipAvailabilityIndexCheck=false"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/proposals?returnAdditions=&returnBill=&returnInstalments=false&returnPaymentOptions=false&returnRequiredFields=false&returnUnits=false&skipAvailabilityIndexCheck=false"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations?accommodationtypecode=&customerName=&customeremail=&distributionChannelCode=&reservationIds=&resourceId=&unitId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/reservations/{reservationId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/activities/{activityDetailId}/qrcodes"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/amenities"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/amenities?reservationIds=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/bills?doFetchInternalBill=&payerType=&returnAllInclusiveBill=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/bills?doFetchInternalBill=&payerType=&reservationIds=&returnAllInclusiveBill=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/bills/snapshots?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/categories?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/content?fetchTurnover=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/content?fetchTurnover=&reservationIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/creditcardauthorisations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/details?returnAllInclusiveBill=&returnSections="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/details?accommodationKindIds=&customerIds=&distributionChannelId=&reservationCategoryIds=&reservationIds=&reservationNumber=&reservedResourceStatusIds=&reservedResourceType=&returnAllInclusiveBill=&returnSections=&statusIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/doorlocks?arrivalDateFrom=&arrivalDateTo=&reservationId=&reservedResourceId=&unitId=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/doorlocks"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/emergencycontacts"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/energies"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/energies?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/infotexts"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/instalments?reservationIds=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/journals"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/memos"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/memos?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/memos?reservationIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/paymentlink?acceptUrl=&authorize=false&cancelUrl=&countryCode=&currencyCode=&declineUrl=&exceptionUrl=&homeUrl=&payerType=PAYING_CUSTOMER&paymentMethods=&price=&returnUrl=&storeCC="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/paymentmethods?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/payments"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/payments?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/payments?reservationIds=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/paymenttermsets?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/preferences"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/preferences?reservationIds=&page=&size=&sort="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/proposals/additiongroups?page=&size=&sort="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/proposals/compare?returnBill=false&returnPaymentOptions=false&returnReservedResources=false&returnUnits=false"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/proposals?returnBill=&returnInstalments=false&returnPaymentOptions=&returnSubjects="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/reminders?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/requiredfields?distributionChannelCode=&locationId=&reservationStatus=PROVISIONAL"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}/additions"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}/additions?page=&size=&sort="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}/customfields"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/reservedresources/{reservedResourceId}/customfields?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/sources/categories?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/sources?page=&size=&sort=&filter="
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/reservations/{reservationId}/subjects/{reservationSubjectId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/subjects?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/subjects?reservationIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/reservations/{reservationId}/subjects"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/reservations/{reservationId}/subjects"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/reservations/{reservationId}/termsandconditions?page=&size=&sort=&filter="
+    }
+  ]
+}

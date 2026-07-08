@@ -1,0 +1,1 @@
+An integration with Maxxton to make it possible to to book external inventory from the Maxxton system

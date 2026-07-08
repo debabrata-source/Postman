@@ -1,0 +1,41 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/representations/{representationId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/representations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/representations/{representationId}"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/representations/{representationId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/representations/{representationId}/distributionchannels"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/representations/{representationId}/distributionchannels/{distributionChannelId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/representations/{representationId}/distributionchannels?page=&size=&sort=&filter="
+    }
+  ]
+}

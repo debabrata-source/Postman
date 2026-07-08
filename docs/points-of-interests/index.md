@@ -1,0 +1,1 @@
+Certain interesting features around the location such as cities, airports, theme parks.

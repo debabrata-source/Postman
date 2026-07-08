@@ -1,21 +1,4734 @@
 {
-  "id": "6a393d0140a91543d2b48f93",
-  "name": "basic-1",
-  "lastExport": "2026-07-01T09:52:07.754Z",
-  "baseUrl": "https://api.dexterenergyservices.com/v1",
+  "id": "6a435dec363b02aa191a1725",
+  "name": "performance-test",
+  "lastExport": "2026-07-08T14:54:41.243Z",
+  "baseUrl": "https://api.maxxton.net",
   "sections": [
     {
-      "name": "Dexter Energy Services API",
-      "slug": "dexter-energy-services-api",
+      "name": "Maxxton External API",
+      "slug": "maxxton-external-api",
       "children": [],
       "isHeader": false,
       "externalPageLink": "",
       "isNewTab": false
     },
     {
-      "name": "Get cluster metadata",
-      "slug": "get-cluster-metadata",
-      "children": [],
+      "name": "Accommodation Types",
+      "slug": "accommodation-types",
+      "children": [
+        {
+          "name": "Create accommodationtype",
+          "slug": "accommodation-types/create-accommodationtype",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get accommodationtype",
+          "slug": "accommodation-types/get-accommodationtype",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all accommodationtypes",
+          "slug": "accommodation-types/get-all-accommodationtypes",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update accommodationtype",
+          "slug": "accommodation-types/update-accommodationtype",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Additions",
+          "slug": "accommodation-types/additions",
+          "children": [
+            {
+              "name": "Get all additions",
+              "slug": "accommodation-types/additions/get-all-additions",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all additions for a resource",
+              "slug": "accommodation-types/additions/get-all-additions-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Allotments",
+          "slug": "accommodation-types/allotments",
+          "children": [
+            {
+              "name": "Get all allotments for a resource",
+              "slug": "accommodation-types/allotments/get-all-allotments-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Releases",
+              "slug": "accommodation-types/allotments/releases",
+              "children": [
+                {
+                  "name": "Get all allotment releases for a resource",
+                  "slug": "accommodation-types/allotments/releases/get-all-allotment-releases-for-a-resource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Amenitylinks",
+          "slug": "accommodation-types/amenitylinks",
+          "children": [
+            {
+              "name": "Get all amenitylinks",
+              "slug": "accommodation-types/amenitylinks/get-all-amenitylinks",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenitylinks for a resource",
+              "slug": "accommodation-types/amenitylinks/get-all-amenitylinks-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Availability",
+          "slug": "accommodation-types/availability",
+          "children": [
+            {
+              "name": "Additions",
+              "slug": "accommodation-types/availability/additions-1",
+              "children": [
+                {
+                  "name": "Get available additions for a specific accommodationtype",
+                  "slug": "accommodation-types/availability/additions-1/get-available-additions-for-a-specific-accommodationtype",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get accommodationtype availability",
+              "slug": "accommodation-types/availability/get-accommodationtype-availability",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Implies",
+              "slug": "accommodation-types/availability/implies",
+              "children": [
+                {
+                  "name": "Get all available implies for a specific accommodationtype",
+                  "slug": "accommodation-types/availability/implies/get-all-available-implies-for-a-specific-accommodationtype",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Preferences",
+              "slug": "accommodation-types/availability/preferences",
+              "children": [
+                {
+                  "name": "Get available preferences for a specific accommodationtype",
+                  "slug": "accommodation-types/availability/preferences/get-available-preferences-for-a-specific-accommodationtype",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Budgets",
+          "slug": "accommodation-types/budgets",
+          "children": [
+            {
+              "name": "Create budgets for a resource",
+              "slug": "accommodation-types/budgets/create-budgets-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all budgets of a resource",
+              "slug": "accommodation-types/budgets/get-all-budgets-of-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Calculateprices",
+          "slug": "accommodation-types/calculateprices",
+          "children": [
+            {
+              "name": "Calculate prices for a resource",
+              "slug": "accommodation-types/calculateprices/calculate-prices-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Capacities",
+          "slug": "accommodation-types/capacities",
+          "children": [
+            {
+              "name": "Get capacities for a resource",
+              "slug": "accommodation-types/capacities/get-capacities-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "accommodation-types/details",
+          "children": [
+            {
+              "name": "Get accommodationtype detail for a specific resource",
+              "slug": "accommodation-types/details/get-accommodationtype-detail-for-a-specific-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get accommodationtypes detail",
+              "slug": "accommodation-types/details/get-accommodationtypes-detail",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Dynamicfields",
+          "slug": "accommodation-types/dynamicfields",
+          "children": [
+            {
+              "name": "Get all dynamicfields for a resource",
+              "slug": "accommodation-types/dynamicfields/get-all-dynamicfields-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update dynamicfields for a resource",
+              "slug": "accommodation-types/dynamicfields/update-dynamicfields-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Images",
+          "slug": "accommodation-types/images",
+          "children": [
+            {
+              "name": "Get all images for a resource",
+              "slug": "accommodation-types/images/get-all-images-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Implies",
+          "slug": "accommodation-types/implies-1",
+          "children": [
+            {
+              "name": "Get all implies",
+              "slug": "accommodation-types/implies-1/get-all-implies",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all implies for a resource",
+              "slug": "accommodation-types/implies-1/get-all-implies-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Kinds",
+          "slug": "accommodation-types/kinds",
+          "children": [
+            {
+              "name": "Get all accommodation kinds",
+              "slug": "accommodation-types/kinds/get-all-accommodation-kinds",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Locks",
+          "slug": "accommodation-types/locks",
+          "children": [
+            {
+              "name": "Get all locks for a resource",
+              "slug": "accommodation-types/locks/get-all-locks-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Occupancy",
+          "slug": "accommodation-types/occupancy",
+          "children": [
+            {
+              "name": "Get all occupancy for a resource",
+              "slug": "accommodation-types/occupancy/get-all-occupancy-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Priorities",
+          "slug": "accommodation-types/priorities",
+          "children": [
+            {
+              "name": "Get all priorities for a resource",
+              "slug": "accommodation-types/priorities/get-all-priorities-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "TargetAmounts",
+              "slug": "accommodation-types/priorities/targetamounts",
+              "children": [
+                {
+                  "name": "Get all target amounts for a resource priority",
+                  "slug": "accommodation-types/priorities/targetamounts/get-all-target-amounts-for-a-resource-priority",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Qualitylevels",
+          "slug": "accommodation-types/qualitylevels",
+          "children": [
+            {
+              "name": "Get all quality levels",
+              "slug": "accommodation-types/qualitylevels/get-all-quality-levels",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rates",
+          "slug": "accommodation-types/rates",
+          "children": [
+            {
+              "name": "Batch",
+              "slug": "accommodation-types/rates/batch",
+              "children": [
+                {
+                  "name": "Create multiple rates for a resource",
+                  "slug": "accommodation-types/rates/batch/create-multiple-rates-for-a-resource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Create rates for a resource",
+              "slug": "accommodation-types/rates/create-rates-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all rates for a resource",
+              "slug": "accommodation-types/rates/get-all-rates-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Releases",
+          "slug": "accommodation-types/releases-1",
+          "children": [
+            {
+              "name": "Get all releases for a resource",
+              "slug": "accommodation-types/releases-1/get-all-releases-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rentability",
+          "slug": "accommodation-types/rentability",
+          "children": [
+            {
+              "name": "Create rentability for a resource",
+              "slug": "accommodation-types/rentability/create-rentability-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Representations",
+          "slug": "accommodation-types/representations",
+          "children": [
+            {
+              "name": "Create representations for a resource",
+              "slug": "accommodation-types/representations/create-representations-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all representations for a resource",
+              "slug": "accommodation-types/representations/get-all-representations-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rooms",
+          "slug": "accommodation-types/rooms",
+          "children": [
+            {
+              "name": "Get all rooms for a resource",
+              "slug": "accommodation-types/rooms/get-all-rooms-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Search",
+          "slug": "accommodation-types/search",
+          "children": [
+            {
+              "name": "Accommodationtype search",
+              "slug": "accommodation-types/search/accommodationtype-search",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Arrival range search",
+              "slug": "accommodation-types/search/arrival-range-search",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Videos",
+          "slug": "accommodation-types/videos",
+          "children": [
+            {
+              "name": "Get all videos for a resource",
+              "slug": "accommodation-types/videos/get-all-videos-for-a-resource",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "AddOn",
+      "slug": "addon",
+      "children": [
+        {
+          "name": "Get add-on",
+          "slug": "addon/get-add-on",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all add-ons",
+          "slug": "addon/get-all-add-ons",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Additions",
+          "slug": "addon/additions-2",
+          "children": [
+            {
+              "name": "Get all additions",
+              "slug": "addon/additions-2/get-all-additions-1",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all additions for a add-on",
+              "slug": "addon/additions-2/get-all-additions-for-a-add-on",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Dynamicfields",
+          "slug": "addon/dynamicfields-1",
+          "children": [
+            {
+              "name": "Get all dynamic fields for a add-on",
+              "slug": "addon/dynamicfields-1/get-all-dynamic-fields-for-a-add-on",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update dynamic field for a add-on",
+              "slug": "addon/dynamicfields-1/update-dynamic-field-for-a-add-on",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Images",
+          "slug": "addon/images-1",
+          "children": [
+            {
+              "name": "Get all images for a add-on",
+              "slug": "addon/images-1/get-all-images-for-a-add-on",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Implies",
+          "slug": "addon/implies-2",
+          "children": [
+            {
+              "name": "Get all implies for a add-on",
+              "slug": "addon/implies-2/get-all-implies-for-a-add-on",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all implies for add-ons",
+              "slug": "addon/implies-2/get-all-implies-for-add-ons",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Admin Organisation",
+      "slug": "admin-organisation",
+      "children": [
+        {
+          "name": "Create an admin organisation",
+          "slug": "admin-organisation/create-an-admin-organisation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all admin organisations",
+          "slug": "admin-organisation/get-all-admin-organisations",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update a admin organisation",
+          "slug": "admin-organisation/update-a-admin-organisation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Accounts",
+          "slug": "admin-organisation/accounts",
+          "children": [
+            {
+              "name": "Get all accounts for a AO",
+              "slug": "admin-organisation/accounts/get-all-accounts-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Exchangerates",
+          "slug": "admin-organisation/exchangerates",
+          "children": [
+            {
+              "name": "Add an exchange rate for an AO.",
+              "slug": "admin-organisation/exchangerates/add-an-exchange-rate-for-an-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all exchange rates for a AO",
+              "slug": "admin-organisation/exchangerates/get-all-exchange-rates-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Financialtransactions",
+          "slug": "admin-organisation/financialtransactions",
+          "children": [
+            {
+              "name": "Get all financial transactions for a AO",
+              "slug": "admin-organisation/financialtransactions/get-all-financial-transactions-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Journals",
+              "slug": "admin-organisation/financialtransactions/journals",
+              "children": [
+                {
+                  "name": "Get all financial transactions journal report of a AO",
+                  "slug": "admin-organisation/financialtransactions/journals/get-all-financial-transactions-journal-report-of-a-ao",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update financial transactions report for a AO",
+              "slug": "admin-organisation/financialtransactions/update-financial-transactions-report-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Ownerfinancialtransactions",
+          "slug": "admin-organisation/ownerfinancialtransactions",
+          "children": [
+            {
+              "name": "Get all owner financial transactions for a AO",
+              "slug": "admin-organisation/ownerfinancialtransactions/get-all-owner-financial-transactions-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Journals",
+              "slug": "admin-organisation/ownerfinancialtransactions/journals-1",
+              "children": [
+                {
+                  "name": "Entries",
+                  "slug": "admin-organisation/ownerfinancialtransactions/journals-1/entries",
+                  "children": [
+                    {
+                      "name": "Get all journal entries for owner financial transaction report ",
+                      "slug": "admin-organisation/ownerfinancialtransactions/journals-1/entries/get-all-journal-entries-for-owner-financial-transaction-report",
+                      "children": [],
+                      "isHeader": false,
+                      "externalPageLink": "",
+                      "isNewTab": false
+                    }
+                  ],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                },
+                {
+                  "name": "Get all owner financial transactions journals for a AO",
+                  "slug": "admin-organisation/ownerfinancialtransactions/journals-1/get-all-owner-financial-transactions-journals-for-a-ao",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update owner financial transactions for a AO",
+              "slug": "admin-organisation/ownerfinancialtransactions/update-owner-financial-transactions-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Revenuedistributions",
+          "slug": "admin-organisation/revenuedistributions",
+          "children": [
+            {
+              "name": "Get all revenuedistributions for a AO",
+              "slug": "admin-organisation/revenuedistributions/get-all-revenuedistributions-for-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Journals",
+              "slug": "admin-organisation/revenuedistributions/journals-2",
+              "children": [
+                {
+                  "name": " Get all revenue distribution journal of a AO",
+                  "slug": "admin-organisation/revenuedistributions/journals-2/get-all-revenue-distribution-journal-of-a-ao",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update revenue distribution of a AO",
+              "slug": "admin-organisation/revenuedistributions/update-revenue-distribution-of-a-ao",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Allotment",
+      "slug": "allotment",
+      "children": [
+        {
+          "name": "Get all allotments",
+          "slug": "allotment/get-all-allotments",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Releases",
+          "slug": "allotment/releases-2",
+          "children": [
+            {
+              "name": "Get all allotment releases",
+              "slug": "allotment/releases-2/get-all-allotment-releases",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Amenity",
+      "slug": "amenity",
+      "children": [
+        {
+          "name": "Create amenity",
+          "slug": "amenity/create-amenity",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all amenities",
+          "slug": "amenity/get-all-amenities",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Categories",
+          "slug": "amenity/categories",
+          "children": [
+            {
+              "name": "Get all amenity categories",
+              "slug": "amenity/categories/get-all-amenity-categories",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "amenity/details-1",
+          "children": [
+            {
+              "name": "Get all amenity details",
+              "slug": "amenity/details-1/get-all-amenity-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Authentication",
+      "slug": "authentication",
+      "children": [
+        {
+          "name": "Authenticate",
+          "slug": "authentication/authenticate",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Brands",
+      "slug": "brands",
+      "children": [
+        {
+          "name": "Get all brands",
+          "slug": "brands/get-all-brands",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get brand",
+          "slug": "brands/get-brand",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Cash Clearance",
+      "slug": "cash-clearance",
+      "children": [
+        {
+          "name": "Get all companies",
+          "slug": "cash-clearance/get-all-companies",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get company",
+          "slug": "cash-clearance/get-company",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Accounts",
+          "slug": "cash-clearance/accounts-1",
+          "children": [
+            {
+              "name": "Get all cash accounts",
+              "slug": "cash-clearance/accounts-1/get-all-cash-accounts",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Clearance",
+          "slug": "cash-clearance/clearance",
+          "children": [
+            {
+              "name": "Get all cash clearances",
+              "slug": "cash-clearance/clearance/get-all-cash-clearances",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Journalreports",
+          "slug": "cash-clearance/journalreports",
+          "children": [
+            {
+              "name": "Entries",
+              "slug": "cash-clearance/journalreports/entries-1",
+              "children": [
+                {
+                  "name": "Get Journal Report Entries",
+                  "slug": "cash-clearance/journalreports/entries-1/get-journal-report-entries",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get Journal Report of companies",
+              "slug": "cash-clearance/journalreports/get-journal-report-of-companies",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Contracts",
+      "slug": "contracts",
+      "children": [
+        {
+          "name": "Create a contract",
+          "slug": "contracts/create-a-contract",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Delete a contract",
+          "slug": "contracts/delete-a-contract",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all contracts",
+          "slug": "contracts/get-all-contracts",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get contract",
+          "slug": "contracts/get-contract",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update a contract",
+          "slug": "contracts/update-a-contract",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Types",
+          "slug": "contracts/types",
+          "children": [
+            {
+              "name": "Get all contract types",
+              "slug": "contracts/types/get-all-contract-types",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Rules",
+              "slug": "contracts/types/rules",
+              "children": [
+                {
+                  "name": "Get all rules",
+                  "slug": "contracts/types/rules/get-all-rules",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Cost Centers",
+      "slug": "cost-centers",
+      "children": [
+        {
+          "name": "Get a page with cost centers",
+          "slug": "cost-centers/get-a-page-with-cost-centers",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Countries",
+      "slug": "countries",
+      "children": [
+        {
+          "name": "Get all countries",
+          "slug": "countries/get-all-countries",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "States",
+          "slug": "countries/states",
+          "children": [
+            {
+              "name": "Cities",
+              "slug": "countries/states/cities",
+              "children": [
+                {
+                  "name": "Get all cities",
+                  "slug": "countries/states/cities/get-all-cities",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all states",
+              "slug": "countries/states/get-all-states",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Currency",
+      "slug": "currency",
+      "children": [
+        {
+          "name": "Get all currencies",
+          "slug": "currency/get-all-currencies",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get currency",
+          "slug": "currency/get-currency",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Customer Care Report",
+      "slug": "customer-care-report",
+      "children": [
+        {
+          "name": "Customercare",
+          "slug": "customer-care-report/customercare",
+          "children": [
+            {
+              "name": "Get all customer care reports",
+              "slug": "customer-care-report/customercare/get-all-customer-care-reports",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Customer Status",
+      "slug": "customer-status",
+      "children": [
+        {
+          "name": "Get all customer status",
+          "slug": "customer-status/get-all-customer-status",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Categories",
+          "slug": "customer-status/categories-1",
+          "children": [
+            {
+              "name": "Get all customerstatus categories",
+              "slug": "customer-status/categories-1/get-all-customerstatus-categories",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Customers",
+      "slug": "customers",
+      "children": [
+        {
+          "name": "Create a customer",
+          "slug": "customers/create-a-customer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all customers",
+          "slug": "customers/get-all-customers",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all titles",
+          "slug": "customers/get-all-titles",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get customer",
+          "slug": "customers/get-customer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update a customer",
+          "slug": "customers/update-a-customer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Communications",
+          "slug": "customers/communications",
+          "children": [
+            {
+              "name": "Get all communications for a customer",
+              "slug": "customers/communications/get-all-communications-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Credentials",
+          "slug": "customers/credentials",
+          "children": [
+            {
+              "name": "Update credentials for a customer",
+              "slug": "customers/credentials/update-credentials-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Customerstatus",
+          "slug": "customers/customerstatus",
+          "children": [
+            {
+              "name": "Get all customerstatus for a customer",
+              "slug": "customers/customerstatus/get-all-customerstatus-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update customer status",
+              "slug": "customers/customerstatus/update-customer-status",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Files",
+          "slug": "customers/files",
+          "children": [
+            {
+              "name": "Get all files for a customer",
+              "slug": "customers/files/get-all-files-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get file for a customer",
+              "slug": "customers/files/get-file-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Login",
+          "slug": "customers/login",
+          "children": [
+            {
+              "name": "Authenticate a customer",
+              "slug": "customers/login/authenticate-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Loyalty",
+          "slug": "customers/loyalty",
+          "children": [
+            {
+              "name": "Get all loyality points details for a customer ",
+              "slug": "customers/loyalty/get-all-loyality-points-details-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Transactions",
+              "slug": "customers/loyalty/transactions",
+              "children": [
+                {
+                  "name": "Get all transactions of loyality points",
+                  "slug": "customers/loyalty/transactions/get-all-transactions-of-loyality-points",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Memos",
+          "slug": "customers/memos",
+          "children": [
+            {
+              "name": "Create memos for a customer",
+              "slug": "customers/memos/create-memos-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all memos for a customer",
+              "slug": "customers/memos/get-all-memos-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Phonecalls",
+          "slug": "customers/phonecalls",
+          "children": [
+            {
+              "name": "Get all phonecalls for a customer",
+              "slug": "customers/phonecalls/get-all-phonecalls-for-a-customer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "DistributionChannels",
+      "slug": "distributionchannels",
+      "children": [
+        {
+          "name": "Get all distribution channels",
+          "slug": "distributionchannels/get-all-distribution-channels",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get distribution channel",
+          "slug": "distributionchannels/get-distribution-channel",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "distributionchannels/details-2",
+          "children": [
+            {
+              "name": "Get a page with distributionChannel details",
+              "slug": "distributionchannels/details-2/get-a-page-with-distributionchannel-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Gets a single distributionChannel details",
+              "slug": "distributionchannels/details-2/gets-a-single-distributionchannel-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Locations",
+          "slug": "distributionchannels/locations",
+          "children": [
+            {
+              "name": "Get all locations for a distribution channel",
+              "slug": "distributionchannels/locations/get-all-locations-for-a-distribution-channel",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Paymentmethods",
+          "slug": "distributionchannels/paymentmethods",
+          "children": [
+            {
+              "name": "Get all payment methods",
+              "slug": "distributionchannels/paymentmethods/get-all-payment-methods",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all payment methods for a distribution channel",
+              "slug": "distributionchannels/paymentmethods/get-all-payment-methods-for-a-distribution-channel",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Employee",
+      "slug": "employee",
+      "children": [
+        {
+          "name": "Create employee",
+          "slug": "employee/create-employee",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all employees",
+          "slug": "employee/get-all-employees",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update employee",
+          "slug": "employee/update-employee",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Events",
+      "slug": "events",
+      "children": [
+        {
+          "name": "Get all events",
+          "slug": "events/get-all-events",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Facilities",
+      "slug": "facilities",
+      "children": [
+        {
+          "name": "Get all facilities",
+          "slug": "facilities/get-all-facilities",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get facility",
+          "slug": "facilities/get-facility",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Files",
+      "slug": "files-1",
+      "children": [
+        {
+          "name": "Types",
+          "slug": "files-1/types-1",
+          "children": [
+            {
+              "name": "get Headings",
+              "slug": "files-1/types-1/get-headings",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Groups",
+      "slug": "groups",
+      "children": [
+        {
+          "name": "Get all groups",
+          "slug": "groups/get-all-groups",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get group",
+          "slug": "groups/get-group",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Housekeeping",
+      "slug": "housekeeping",
+      "children": [
+        {
+          "name": "Get all housekeeping details",
+          "slug": "housekeeping/get-all-housekeeping-details",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "History",
+          "slug": "housekeeping/history",
+          "children": [
+            {
+              "name": "Get housekeeping history",
+              "slug": "housekeeping/history/get-housekeeping-history",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Tasks",
+          "slug": "housekeeping/tasks",
+          "children": [
+            {
+              "name": "Get all housekeeping tasks",
+              "slug": "housekeeping/tasks/get-all-housekeeping-tasks",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Icals",
+      "slug": "icals",
+      "children": [
+        {
+          "name": "Get ical link for a unit",
+          "slug": "icals/get-ical-link-for-a-unit",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Infotexts",
+      "slug": "infotexts",
+      "children": [
+        {
+          "name": "Search",
+          "slug": "infotexts/search-1",
+          "children": [
+            {
+              "name": "Search infotexts",
+              "slug": "infotexts/search-1/search-infotexts",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Showmoments",
+          "slug": "infotexts/showmoments",
+          "children": [
+            {
+              "name": "Get all show moments",
+              "slug": "infotexts/showmoments/get-all-show-moments",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Invoice",
+      "slug": "invoice",
+      "children": [
+        {
+          "name": "Get invoices",
+          "slug": "invoice/get-invoices",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Languages",
+      "slug": "languages",
+      "children": [
+        {
+          "name": "Get all languages",
+          "slug": "languages/get-all-languages",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Ledgers",
+      "slug": "ledgers",
+      "children": [
+        {
+          "name": "Get Ledger for specific ledger id",
+          "slug": "ledgers/get-ledger-for-specific-ledger-id",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get a page with ledgers",
+          "slug": "ledgers/get-a-page-with-ledgers",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update a ledger",
+          "slug": "ledgers/update-a-ledger",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Groups",
+          "slug": "ledgers/groups-1",
+          "children": [
+            {
+              "name": " Get ledger group",
+              "slug": "ledgers/groups-1/get-ledger-group",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all ledger groups",
+              "slug": "ledgers/groups-1/get-all-ledger-groups",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Locations",
+      "slug": "locations-1",
+      "children": [
+        {
+          "name": "Create a location",
+          "slug": "locations-1/create-a-location",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get a location",
+          "slug": "locations-1/get-a-location",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all locations",
+          "slug": "locations-1/get-all-locations",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update a location",
+          "slug": "locations-1/update-a-location",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Activities",
+          "slug": "locations-1/activities",
+          "children": [
+            {
+              "name": "Get all activities for multiple locations",
+              "slug": "locations-1/activities/get-all-activities-for-multiple-locations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Amenitylinks",
+          "slug": "locations-1/amenitylinks-1",
+          "children": [
+            {
+              "name": "Get all amenitylinks for a location ",
+              "slug": "locations-1/amenitylinks-1/get-all-amenitylinks-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenitylinks for multiple locations ",
+              "slug": "locations-1/amenitylinks-1/get-all-amenitylinks-for-multiple-locations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update amentylink for a location",
+              "slug": "locations-1/amenitylinks-1/update-amentylink-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "locations-1/details-3",
+          "children": [
+            {
+              "name": "Get location details",
+              "slug": "locations-1/details-3/get-location-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get specific location details",
+              "slug": "locations-1/details-3/get-specific-location-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Dynamicfields",
+          "slug": "locations-1/dynamicfields-2",
+          "children": [
+            {
+              "name": "Get all dynamic fields for a location",
+              "slug": "locations-1/dynamicfields-2/get-all-dynamic-fields-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update dynamic field for a location",
+              "slug": "locations-1/dynamicfields-2/update-dynamic-field-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Images",
+          "slug": "locations-1/images-2",
+          "children": [
+            {
+              "name": "Get all images for a location",
+              "slug": "locations-1/images-2/get-all-images-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Priorities",
+          "slug": "locations-1/priorities-1",
+          "children": [
+            {
+              "name": "Get all priorities for a location",
+              "slug": "locations-1/priorities-1/get-all-priorities-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all priorities for multiple locations",
+              "slug": "locations-1/priorities-1/get-all-priorities-for-multiple-locations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update priorities for a location",
+              "slug": "locations-1/priorities-1/update-priorities-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Search",
+          "slug": "locations-1/search-2",
+          "children": [
+            {
+              "name": "Search for locations",
+              "slug": "locations-1/search-2/search-for-locations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Subjects",
+          "slug": "locations-1/subjects",
+          "children": [
+            {
+              "name": "Get all subjects for a location",
+              "slug": "locations-1/subjects/get-all-subjects-for-a-location",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Locks",
+      "slug": "locks-1",
+      "children": [
+        {
+          "name": "Reasons",
+          "slug": "locks-1/reasons",
+          "children": [
+            {
+              "name": "Get all lock reasons",
+              "slug": "locks-1/reasons/get-all-lock-reasons",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Memos",
+      "slug": "memos-1",
+      "children": [
+        {
+          "name": "Categories",
+          "slug": "memos-1/categories-2",
+          "children": [
+            {
+              "name": "Get all memo categories",
+              "slug": "memos-1/categories-2/get-all-memo-categories",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Nationalities",
+      "slug": "nationalities",
+      "children": [
+        {
+          "name": "Get all nationalities",
+          "slug": "nationalities/get-all-nationalities",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Offer",
+      "slug": "offer",
+      "children": [
+        {
+          "name": "Create offer",
+          "slug": "offer/create-offer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all offers",
+          "slug": "offer/get-all-offers",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get offer",
+          "slug": "offer/get-offer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update offer",
+          "slug": "offer/update-offer",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Additions",
+          "slug": "offer/additions-3",
+          "children": [
+            {
+              "name": "Create additions for a offer",
+              "slug": "offer/additions-3/create-additions-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all additions for a offer",
+              "slug": "offer/additions-3/get-all-additions-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all additions for a offer",
+              "slug": "offer/additions-3/get-all-additions-for-a-offer-1",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update addition for a offer",
+              "slug": "offer/additions-3/update-addition-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Contracttypes",
+          "slug": "offer/contracttypes",
+          "children": [
+            {
+              "name": "Create contracttypes for a offer",
+              "slug": "offer/contracttypes/create-contracttypes-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Delete contract type for a offer",
+              "slug": "offer/contracttypes/delete-contract-type-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all contractypes for a offer",
+              "slug": "offer/contracttypes/get-all-contractypes-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Implies",
+          "slug": "offer/implies-3",
+          "children": [
+            {
+              "name": "Get all implies for a offer",
+              "slug": "offer/implies-3/get-all-implies-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all implies for offers",
+              "slug": "offer/implies-3/get-all-implies-for-offers",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rates",
+          "slug": "offer/rates-1",
+          "children": [
+            {
+              "name": "Get all rates for a offer",
+              "slug": "offer/rates-1/get-all-rates-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Insert the offer rate",
+              "slug": "offer/rates-1/insert-the-offer-rate",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rentability",
+          "slug": "offer/rentability-1",
+          "children": [
+            {
+              "name": "Create rentability for a offer",
+              "slug": "offer/rentability-1/create-rentability-for-a-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Representations",
+          "slug": "offer/representations-1",
+          "children": [
+            {
+              "name": "Create representations for offer",
+              "slug": "offer/representations-1/create-representations-for-offer",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all representations for a resource",
+              "slug": "offer/representations-1/get-all-representations-for-a-resource-1",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Operations",
+      "slug": "operations",
+      "children": [
+        {
+          "name": "Images",
+          "slug": "operations/images-3",
+          "children": [
+            {
+              "name": "Get all images for a operation",
+              "slug": "operations/images-3/get-all-images-for-a-operation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "PeriodicalTasks",
+          "slug": "operations/periodicaltasks",
+          "children": [
+            {
+              "name": "Get all periodical tasks",
+              "slug": "operations/periodicaltasks/get-all-periodical-tasks",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Tasks",
+          "slug": "operations/tasks-1",
+          "children": [
+            {
+              "name": "Get all operation tasks",
+              "slug": "operations/tasks-1/get-all-operation-tasks",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Owners",
+      "slug": "owners",
+      "children": [
+        {
+          "name": "Create owner",
+          "slug": "owners/create-owner",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all owners",
+          "slug": "owners/get-all-owners",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get owner",
+          "slug": "owners/get-owner",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update owner",
+          "slug": "owners/update-owner",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Accommodationtypes",
+          "slug": "owners/accommodationtypes",
+          "children": [
+            {
+              "name": "Get all accommodationtype for a owner ",
+              "slug": "owners/accommodationtypes/get-all-accommodationtype-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all accommodationtypes for owners",
+              "slug": "owners/accommodationtypes/get-all-accommodationtypes-for-owners",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Associations",
+          "slug": "owners/associations",
+          "children": [
+            {
+              "name": "Get all homeownerassociations",
+              "slug": "owners/associations/get-all-homeownerassociations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Communications",
+          "slug": "owners/communications-1",
+          "children": [
+            {
+              "name": "Get all communication for a owner",
+              "slug": "owners/communications-1/get-all-communication-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Credentials",
+          "slug": "owners/credentials-1",
+          "children": [
+            {
+              "name": "Update credentials for a owner",
+              "slug": "owners/credentials-1/update-credentials-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Files",
+          "slug": "owners/files-2",
+          "children": [
+            {
+              "name": "Delete a file for an owner",
+              "slug": "owners/files-2/delete-a-file-for-an-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all files for a owner",
+              "slug": "owners/files-2/get-all-files-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get specific file for a owner",
+              "slug": "owners/files-2/get-specific-file-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Upload",
+              "slug": "owners/files-2/upload",
+              "children": [
+                {
+                  "name": "Upload a file for an owner",
+                  "slug": "owners/files-2/upload/upload-a-file-for-an-owner",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Groups",
+          "slug": "owners/groups-2",
+          "children": [
+            {
+              "name": "Get all owner groups",
+              "slug": "owners/groups-2/get-all-owner-groups",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Login",
+          "slug": "owners/login-1",
+          "children": [
+            {
+              "name": "Authenticate owner",
+              "slug": "owners/login-1/authenticate-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Reservations",
+          "slug": "owners/reservations",
+          "children": [
+            {
+              "name": "Details",
+              "slug": "owners/reservations/details-4",
+              "children": [
+                {
+                  "name": "Get reservation details for a owner",
+                  "slug": "owners/reservations/details-4/get-reservation-details-for-a-owner",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Settlements",
+          "slug": "owners/settlements",
+          "children": [
+            {
+              "name": "Entries",
+              "slug": "owners/settlements/entries-2",
+              "children": [
+                {
+                  "name": "Get all entries for a owner settlement",
+                  "slug": "owners/settlements/entries-2/get-all-entries-for-a-owner-settlement",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all owner settlements",
+              "slug": "owners/settlements/get-all-owner-settlements",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Units",
+          "slug": "owners/units",
+          "children": [
+            {
+              "name": "Create unit for a owner",
+              "slug": "owners/units/create-unit-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all units for a owner",
+              "slug": "owners/units/get-all-units-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all units for a owner group",
+              "slug": "owners/units/get-all-units-for-a-owner-group",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all units for owners",
+              "slug": "owners/units/get-all-units-for-owners",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Ownerships",
+              "slug": "owners/units/ownerships",
+              "children": [
+                {
+                  "name": "Get all unit ownerships for a owner",
+                  "slug": "owners/units/ownerships/get-all-unit-ownerships-for-a-owner",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Reservations",
+              "slug": "owners/units/reservations-1",
+              "children": [
+                {
+                  "name": "Get all owner unit reservations",
+                  "slug": "owners/units/reservations-1/get-all-owner-unit-reservations",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update unit for a owner",
+              "slug": "owners/units/update-unit-for-a-owner",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Packages",
+      "slug": "packages",
+      "children": [
+        {
+          "name": "Items",
+          "slug": "packages/items",
+          "children": [
+            {
+              "name": "Get all items for a package",
+              "slug": "packages/items/get-all-items-for-a-package",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all package items ",
+              "slug": "packages/items/get-all-package-items",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Payment Term Set",
+      "slug": "payment-term-set",
+      "children": [
+        {
+          "name": "Get all paymenttermsets ",
+          "slug": "payment-term-set/get-all-paymenttermsets",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Points Of Interests",
+      "slug": "points-of-interests",
+      "children": [
+        {
+          "name": "Create Point of Interest",
+          "slug": "points-of-interests/create-point-of-interest",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all point of interests",
+          "slug": "points-of-interests/get-all-point-of-interests",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Updates a Point of Interest",
+          "slug": "points-of-interests/updates-a-point-of-interest",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Categories",
+          "slug": "points-of-interests/categories-3",
+          "children": [
+            {
+              "name": "Get all categories for points of interests",
+              "slug": "points-of-interests/categories-3/get-all-categories-for-points-of-interests",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Predefined Memo",
+      "slug": "predefined-memo",
+      "children": [
+        {
+          "name": "Get all predefined memos",
+          "slug": "predefined-memo/get-all-predefined-memos",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Questionnaire",
+      "slug": "questionnaire",
+      "children": [
+        {
+          "name": "Ratings",
+          "slug": "questionnaire/ratings",
+          "children": [
+            {
+              "name": "Create questionnaire ratings",
+              "slug": "questionnaire/ratings/create-questionnaire-ratings",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all Questionnaire ratings",
+              "slug": "questionnaire/ratings/get-all-questionnaire-ratings",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Rate Types",
+      "slug": "rate-types",
+      "children": [
+        {
+          "name": "Get all rate types",
+          "slug": "rate-types/get-all-rate-types",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rateoptions",
+          "slug": "rate-types/rateoptions",
+          "children": [
+            {
+              "name": "Get all rate options",
+              "slug": "rate-types/rateoptions/get-all-rate-options",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get rate option for ratetype",
+              "slug": "rate-types/rateoptions/get-rate-option-for-ratetype",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Region",
+      "slug": "region",
+      "children": [
+        {
+          "name": "Get all regions",
+          "slug": "region/get-all-regions",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get region",
+          "slug": "region/get-region",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Relationships",
+      "slug": "relationships",
+      "children": [
+        {
+          "name": "Get all relationships",
+          "slug": "relationships/get-all-relationships",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Rentability",
+      "slug": "rentability-2",
+      "children": [
+        {
+          "name": "Config",
+          "slug": "rentability-2/config",
+          "children": [
+            {
+              "name": "Get all rentability config",
+              "slug": "rentability-2/config/get-all-rentability-config",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Sets",
+          "slug": "rentability-2/sets",
+          "children": [
+            {
+              "name": "Get all rentability sets",
+              "slug": "rentability-2/sets/get-all-rentability-sets",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Stays",
+          "slug": "rentability-2/stays",
+          "children": [
+            {
+              "name": "Gets page with rentabilities",
+              "slug": "rentability-2/stays/gets-page-with-rentabilities",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Representation",
+      "slug": "representation",
+      "children": [
+        {
+          "name": "Delete representation",
+          "slug": "representation/delete-representation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all representations",
+          "slug": "representation/get-all-representations",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get representation",
+          "slug": "representation/get-representation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update representation",
+          "slug": "representation/update-representation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Distributionchannels",
+          "slug": "representation/distributionchannels-1",
+          "children": [
+            {
+              "name": "Create representation & distribution channel link",
+              "slug": "representation/distributionchannels-1/create-representation-and-distribution-channel-link",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Delete representation & distribution channel link ",
+              "slug": "representation/distributionchannels-1/delete-representation-and-distribution-channel-link",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get distribution channels for a representation",
+              "slug": "representation/distributionchannels-1/get-distribution-channels-for-a-representation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Resellers",
+      "slug": "resellers",
+      "children": [
+        {
+          "name": "Get all resellers",
+          "slug": "resellers/get-all-resellers",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get reseller",
+          "slug": "resellers/get-reseller",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Stopsells",
+          "slug": "resellers/stopsells",
+          "children": [
+            {
+              "name": "Get all reseller stopsells",
+              "slug": "resellers/stopsells/get-all-reseller-stopsells",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Reservability",
+      "slug": "reservability",
+      "children": [
+        {
+          "name": "Get all resource reservability",
+          "slug": "reservability/get-all-resource-reservability",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all unit reservabilities",
+          "slug": "reservability/get-all-unit-reservabilities",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Allotment",
+          "slug": "reservability/allotment-1",
+          "children": [
+            {
+              "name": "Get all resource reservability allotment",
+              "slug": "reservability/allotment-1/get-all-resource-reservability-allotment",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all unit reservability allotments",
+              "slug": "reservability/allotment-1/get-all-unit-reservability-allotments",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Period",
+          "slug": "reservability/period",
+          "children": [
+            {
+              "name": "Get all unit reservability period",
+              "slug": "reservability/period/get-all-unit-reservability-period",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Reservations",
+      "slug": "reservations-2",
+      "children": [
+        {
+          "name": "Creates a new reservation",
+          "slug": "reservations-2/creates-a-new-reservation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Creates a reservation proposal",
+          "slug": "reservations-2/creates-a-reservation-proposal",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all reservations",
+          "slug": "reservations-2/get-all-reservations",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get reservation",
+          "slug": "reservations-2/get-reservation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update reservation",
+          "slug": "reservations-2/update-reservation",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Activities",
+          "slug": "reservations-2/activities-1",
+          "children": [
+            {
+              "name": "Qrcodes",
+              "slug": "reservations-2/activities-1/qrcodes",
+              "children": [
+                {
+                  "name": "Register activity QR code for a reservation",
+                  "slug": "reservations-2/activities-1/qrcodes/register-activity-qr-code-for-a-reservation",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Amenities",
+          "slug": "reservations-2/amenities",
+          "children": [
+            {
+              "name": "Get all amenities for a reservation",
+              "slug": "reservations-2/amenities/get-all-amenities-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenities for reservations",
+              "slug": "reservations-2/amenities/get-all-amenities-for-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Bills",
+          "slug": "reservations-2/bills",
+          "children": [
+            {
+              "name": "Get all bills for a reservation",
+              "slug": "reservations-2/bills/get-all-bills-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all bills for multiple reservations",
+              "slug": "reservations-2/bills/get-all-bills-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Snapshots",
+              "slug": "reservations-2/bills/snapshots",
+              "children": [
+                {
+                  "name": "Get all bill snapshots for a reservation",
+                  "slug": "reservations-2/bills/snapshots/get-all-bill-snapshots-for-a-reservation",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Categories",
+          "slug": "reservations-2/categories-4",
+          "children": [
+            {
+              "name": "Get all categories for multiple reservations",
+              "slug": "reservations-2/categories-4/get-all-categories-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Content",
+          "slug": "reservations-2/content",
+          "children": [
+            {
+              "name": "Get content for a reservation ",
+              "slug": "reservations-2/content/get-content-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get content for multiple reservations",
+              "slug": "reservations-2/content/get-content-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Creditcardauthorisations",
+          "slug": "reservations-2/creditcardauthorisations",
+          "children": [
+            {
+              "name": "Get all creditcardauthorisations for a reservation",
+              "slug": "reservations-2/creditcardauthorisations/get-all-creditcardauthorisations-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "reservations-2/details-5",
+          "children": [
+            {
+              "name": "Get details for a reservation",
+              "slug": "reservations-2/details-5/get-details-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get details for multiple reservations",
+              "slug": "reservations-2/details-5/get-details-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Doorlocks",
+          "slug": "reservations-2/doorlocks",
+          "children": [
+            {
+              "name": "Get all doorlocks for multiple reservation",
+              "slug": "reservations-2/doorlocks/get-all-doorlocks-for-multiple-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get doorlocks for a reservation",
+              "slug": "reservations-2/doorlocks/get-doorlocks-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Emergencycontacts",
+          "slug": "reservations-2/emergencycontacts",
+          "children": [
+            {
+              "name": "Create emergencycontacts for a reservation",
+              "slug": "reservations-2/emergencycontacts/create-emergencycontacts-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Energies",
+          "slug": "reservations-2/energies",
+          "children": [
+            {
+              "name": "Add energy consumption per reservation id.",
+              "slug": "reservations-2/energies/add-energy-consumption-per-reservation-id",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get a energy consumption by reservation id.",
+              "slug": "reservations-2/energies/get-a-energy-consumption-by-reservation-id",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Infotexts",
+          "slug": "reservations-2/infotexts-1",
+          "children": [
+            {
+              "name": "Get all infotexts for a reservation",
+              "slug": "reservations-2/infotexts-1/get-all-infotexts-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Instalments",
+          "slug": "reservations-2/instalments",
+          "children": [
+            {
+              "name": "Get all instalments for multiple reservations.",
+              "slug": "reservations-2/instalments/get-all-instalments-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Journals",
+          "slug": "reservations-2/journals-3",
+          "children": [
+            {
+              "name": "Get all journals for a reservation",
+              "slug": "reservations-2/journals-3/get-all-journals-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Memos",
+          "slug": "reservations-2/memos-2",
+          "children": [
+            {
+              "name": "Create memos for a reservation",
+              "slug": "reservations-2/memos-2/create-memos-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all memos for a reservation",
+              "slug": "reservations-2/memos-2/get-all-memos-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all memos for multiple reservations",
+              "slug": "reservations-2/memos-2/get-all-memos-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Paymentlink",
+          "slug": "reservations-2/paymentlink",
+          "children": [
+            {
+              "name": "Get paymentlink for a reservation",
+              "slug": "reservations-2/paymentlink/get-paymentlink-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Paymentmethods",
+          "slug": "reservations-2/paymentmethods-1",
+          "children": [
+            {
+              "name": "Get all paymentmethods for a reservation",
+              "slug": "reservations-2/paymentmethods-1/get-all-paymentmethods-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Payments",
+          "slug": "reservations-2/payments",
+          "children": [
+            {
+              "name": "Create payments for a reservation",
+              "slug": "reservations-2/payments/create-payments-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all payments for a reservation",
+              "slug": "reservations-2/payments/get-all-payments-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all payments for multiple reservations",
+              "slug": "reservations-2/payments/get-all-payments-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Paymenttermsets",
+          "slug": "reservations-2/paymenttermsets",
+          "children": [
+            {
+              "name": "Get all paymenttermsets for a reservation",
+              "slug": "reservations-2/paymenttermsets/get-all-paymenttermsets-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Preferences",
+          "slug": "reservations-2/preferences-1",
+          "children": [
+            {
+              "name": "Get all preferences for a reservation",
+              "slug": "reservations-2/preferences-1/get-all-preferences-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all preferences for multiple reservations",
+              "slug": "reservations-2/preferences-1/get-all-preferences-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Proposals",
+          "slug": "reservations-2/proposals",
+          "children": [
+            {
+              "name": "Additiongroups",
+              "slug": "reservations-2/proposals/additiongroups",
+              "children": [
+                {
+                  "name": "create proposal for additiongroups",
+                  "slug": "reservations-2/proposals/additiongroups/create-proposal-for-additiongroups",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Compare",
+              "slug": "reservations-2/proposals/compare",
+              "children": [
+                {
+                  "name": "Creates a reservation proposal comparison",
+                  "slug": "reservations-2/proposals/compare/creates-a-reservation-proposal-comparison",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Creates a reserved reservation proposal",
+              "slug": "reservations-2/proposals/creates-a-reserved-reservation-proposal",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Reminders",
+          "slug": "reservations-2/reminders",
+          "children": [
+            {
+              "name": "Get all reminders for multiple reservations",
+              "slug": "reservations-2/reminders/get-all-reminders-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Requiredfields",
+          "slug": "reservations-2/requiredfields",
+          "children": [
+            {
+              "name": "Get all required fields for a customer, payingCustomer and travelParty",
+              "slug": "reservations-2/requiredfields/get-all-required-fields-for-a-customer-payingcustomer-and-travelparty",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Reservedresources",
+          "slug": "reservations-2/reservedresources",
+          "children": [
+            {
+              "name": "Additions",
+              "slug": "reservations-2/reservedresources/additions-4",
+              "children": [
+                {
+                  "name": "Create  additions for a reservedresource",
+                  "slug": "reservations-2/reservedresources/additions-4/create-additions-for-a-reservedresource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                },
+                {
+                  "name": "Delete a reservedresource for the given reservation",
+                  "slug": "reservations-2/reservedresources/additions-4/delete-a-reservedresource-for-the-given-reservation",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                },
+                {
+                  "name": "Get all additions for a reservedresource",
+                  "slug": "reservations-2/reservedresources/additions-4/get-all-additions-for-a-reservedresource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                },
+                {
+                  "name": "Update reservedresource for the given reservation",
+                  "slug": "reservations-2/reservedresources/additions-4/update-reservedresource-for-the-given-reservation",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Customfields",
+              "slug": "reservations-2/reservedresources/customfields",
+              "children": [
+                {
+                  "name": "Create custom fields for a reservedresource",
+                  "slug": "reservations-2/reservedresources/customfields/create-custom-fields-for-a-reservedresource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                },
+                {
+                  "name": "Get all custom fields for a reservedresource",
+                  "slug": "reservations-2/reservedresources/customfields/get-all-custom-fields-for-a-reservedresource",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Sources",
+          "slug": "reservations-2/sources",
+          "children": [
+            {
+              "name": "Categories",
+              "slug": "reservations-2/sources/categories-5",
+              "children": [
+                {
+                  "name": "Get all reservation source categories",
+                  "slug": "reservations-2/sources/categories-5/get-all-reservation-source-categories",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all sources",
+              "slug": "reservations-2/sources/get-all-sources",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Subjects",
+          "slug": "reservations-2/subjects-1",
+          "children": [
+            {
+              "name": "Delete subjects for a reservation",
+              "slug": "reservations-2/subjects-1/delete-subjects-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all subjects for a reservation",
+              "slug": "reservations-2/subjects-1/get-all-subjects-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all subjects for multiple reservations",
+              "slug": "reservations-2/subjects-1/get-all-subjects-for-multiple-reservations",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update subjects for a reservation ",
+              "slug": "reservations-2/subjects-1/update-subjects-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "create subjects for a reservation",
+              "slug": "reservations-2/subjects-1/create-subjects-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Termsandconditions",
+          "slug": "reservations-2/termsandconditions",
+          "children": [
+            {
+              "name": "Get all termsandconditions for a reservation",
+              "slug": "reservations-2/termsandconditions/get-all-termsandconditions-for-a-reservation",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Room Types",
+      "slug": "room-types",
+      "children": [
+        {
+          "name": "Get all room types",
+          "slug": "room-types/get-all-room-types",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Rooms",
+      "slug": "rooms-1",
+      "children": [
+        {
+          "name": "Amenitylinks",
+          "slug": "rooms-1/amenitylinks-2",
+          "children": [
+            {
+              "name": "Get all amenity links for a room",
+              "slug": "rooms-1/amenitylinks-2/get-all-amenity-links-for-a-room",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenitylinks for rooms",
+              "slug": "rooms-1/amenitylinks-2/get-all-amenitylinks-for-rooms",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Send Methods",
+      "slug": "send-methods",
+      "children": [
+        {
+          "name": "Get all send methods",
+          "slug": "send-methods/get-all-send-methods",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Subjects",
+      "slug": "subjects-2",
+      "children": [
+        {
+          "name": "Categories",
+          "slug": "subjects-2/categories-6",
+          "children": [
+            {
+              "name": "Get all subject categories ",
+              "slug": "subjects-2/categories-6/get-all-subject-categories",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Suppliers",
+      "slug": "suppliers",
+      "children": [
+        {
+          "name": "Details",
+          "slug": "suppliers/details-6",
+          "children": [
+            {
+              "name": "Get all supplier details",
+              "slug": "suppliers/details-6/get-all-supplier-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
+      "isHeader": false,
+      "externalPageLink": "",
+      "isNewTab": false
+    },
+    {
+      "name": "Units",
+      "slug": "units-1",
+      "children": [
+        {
+          "name": "Create unit",
+          "slug": "units-1/create-unit",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get all units",
+          "slug": "units-1/get-all-units",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Get unit",
+          "slug": "units-1/get-unit",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Update unit",
+          "slug": "units-1/update-unit",
+          "children": [],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Allotments",
+          "slug": "units-1/allotments-1",
+          "children": [
+            {
+              "name": "Get all allotments for a unit",
+              "slug": "units-1/allotments-1/get-all-allotments-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Amenitylinks",
+          "slug": "units-1/amenitylinks-3",
+          "children": [
+            {
+              "name": "Create amenity links for a unit",
+              "slug": "units-1/amenitylinks-3/create-amenity-links-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Delete amenity link for a unit",
+              "slug": "units-1/amenitylinks-3/delete-amenity-link-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenitylinks for a unit",
+              "slug": "units-1/amenitylinks-3/get-all-amenitylinks-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all amenitylinks for units",
+              "slug": "units-1/amenitylinks-3/get-all-amenitylinks-for-units",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update amenity links for aunit",
+              "slug": "units-1/amenitylinks-3/update-amenity-links-for-aunit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Capacities",
+          "slug": "units-1/capacities-1",
+          "children": [
+            {
+              "name": "Get all capacities for a unit",
+              "slug": "units-1/capacities-1/get-all-capacities-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Children",
+          "slug": "units-1/children",
+          "children": [
+            {
+              "name": "Get all children for a unit",
+              "slug": "units-1/children/get-all-children-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Contracts",
+          "slug": "units-1/contracts-1",
+          "children": [
+            {
+              "name": "Get all contracts for a unit",
+              "slug": "units-1/contracts-1/get-all-contracts-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Details",
+          "slug": "units-1/details-7",
+          "children": [
+            {
+              "name": "Get a unit with details.",
+              "slug": "units-1/details-7/get-a-unit-with-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all units with their details",
+              "slug": "units-1/details-7/get-all-units-with-their-details",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Doorlocks",
+          "slug": "units-1/doorlocks-1",
+          "children": [
+            {
+              "name": "Pincodes",
+              "slug": "units-1/doorlocks-1/pincodes",
+              "children": [
+                {
+                  "name": "Get all doorlock pincodes for a unit",
+                  "slug": "units-1/doorlocks-1/pincodes/get-all-doorlock-pincodes-for-a-unit",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Doorlocktypes",
+          "slug": "units-1/doorlocktypes",
+          "children": [
+            {
+              "name": "Get all doorlock types for a unit",
+              "slug": "units-1/doorlocktypes/get-all-doorlock-types-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Dynamicfields",
+          "slug": "units-1/dynamicfields-3",
+          "children": [
+            {
+              "name": "Get all dynamic fields for a unit",
+              "slug": "units-1/dynamicfields-3/get-all-dynamic-fields-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update dynamic field for a unit",
+              "slug": "units-1/dynamicfields-3/update-dynamic-field-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Images",
+          "slug": "units-1/images-4",
+          "children": [
+            {
+              "name": "Get all images for a unit",
+              "slug": "units-1/images-4/get-all-images-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Update image of a unit",
+              "slug": "units-1/images-4/update-image-of-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Upload",
+              "slug": "units-1/images-4/upload-1",
+              "children": [
+                {
+                  "name": "upload image for a unit",
+                  "slug": "units-1/images-4/upload-1/upload-image-for-a-unit",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Implies",
+          "slug": "units-1/implies-4",
+          "children": [
+            {
+              "name": "Get all implies for a unit",
+              "slug": "units-1/implies-4/get-all-implies-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Locks",
+          "slug": "units-1/locks-2",
+          "children": [
+            {
+              "name": "Create locks for a unit",
+              "slug": "units-1/locks-2/create-locks-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Delete locks for a unit",
+              "slug": "units-1/locks-2/delete-locks-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all locks for a unit",
+              "slug": "units-1/locks-2/get-all-locks-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Get all locks for units",
+              "slug": "units-1/locks-2/get-all-locks-for-units",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Rooms",
+          "slug": "units-1/rooms-2",
+          "children": [
+            {
+              "name": "Get all rooms for a unit",
+              "slug": "units-1/rooms-2/get-all-rooms-for-a-unit",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Search",
+          "slug": "units-1/search-3",
+          "children": [
+            {
+              "name": "Search units",
+              "slug": "units-1/search-3/search-units",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        },
+        {
+          "name": "Workorders",
+          "slug": "units-1/workorders",
+          "children": [
+            {
+              "name": "Get all workorders",
+              "slug": "units-1/workorders/get-all-workorders",
+              "children": [],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            },
+            {
+              "name": "Issues",
+              "slug": "units-1/workorders/issues",
+              "children": [
+                {
+                  "name": "Creates Workorder",
+                  "slug": "units-1/workorders/issues/creates-workorder",
+                  "children": [],
+                  "isHeader": false,
+                  "externalPageLink": "",
+                  "isNewTab": false
+                }
+              ],
+              "isHeader": false,
+              "externalPageLink": "",
+              "isNewTab": false
+            }
+          ],
+          "isHeader": false,
+          "externalPageLink": "",
+          "isNewTab": false
+        }
+      ],
       "isHeader": false,
       "externalPageLink": "",
       "isNewTab": false

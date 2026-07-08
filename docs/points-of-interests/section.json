@@ -1,0 +1,29 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/pointofinterests"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/pointofinterests?returnSections=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/pointofinterests/{pointsOfInterestId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/pointofinterests/categories?page=&size=&sort=&filter="
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/offers/{resourceId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers/{resourceId}/additions"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/additions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}/additions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/offers/{additionResourceId}/additions/{additionId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers/{resourceId}/contracttypes"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/offers/{resourceId}/contracttypes/{contracttypeId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}/contracttypes?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}/implies?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/implies?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}/rates?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers/{resourceId}/rates"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers/{resourceId}/rentability"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/offers/{resourceId}/representations"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/offers/{resourceId}/representations?page=&size=&sort=&filter="
+    }
+  ]
+}

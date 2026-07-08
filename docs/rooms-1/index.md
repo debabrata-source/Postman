@@ -1,0 +1,1 @@
+A distinct space within a unit provided for guests to stay.

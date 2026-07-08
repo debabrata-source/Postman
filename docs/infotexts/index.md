@@ -1,0 +1,1 @@
+A piece of informative text visible to the customer.

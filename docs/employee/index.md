@@ -1,0 +1,1 @@
+An individual working for an organization, responsible for various tasks or roles.

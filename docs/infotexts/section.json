@@ -1,0 +1,21 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/infotexts/search?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/infotexts/showmoments?page=&size=&sort=&filter="
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+An individual or entity that purchases or uses accommodations or services.

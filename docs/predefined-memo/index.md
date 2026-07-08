@@ -1,0 +1,1 @@
+A brief written message or note used for communication or record-keeping within the software.

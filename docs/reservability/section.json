@@ -1,0 +1,33 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/resourcereservability?resourceId=&resourceType=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/unitreservability?resourceId=&unitId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/resourcereservability/allotment?endDate=&resourceId=&startDate=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/unitreservability/allotment?distributionChannelId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/unitreservability/period?endDate=&startDate=&unitId=&page=&size=&sort="
+    }
+  ]
+}

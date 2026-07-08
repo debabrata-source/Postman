@@ -1,0 +1,1 @@
+A feature or service provided to enhance the guest experience, such as a pool, gym, or Wi-Fi.

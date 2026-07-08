@@ -1,0 +1,1 @@
+Defines how to communicate with the customer.

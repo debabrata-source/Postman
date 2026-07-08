@@ -1,0 +1,49 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/{resourceId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/additions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/{additionResourceId}/additions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/{resourceId}/dynamicfields?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/add-ons/{resourceId}/dynamicfields/{fieldId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/{resourceId}/images?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/{resourceId}/implies?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/add-ons/implies?page=&size=&sort=&filter="
+    }
+  ]
+}

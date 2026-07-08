@@ -1,0 +1,1 @@
+A place where guests stay, such as a hotel room, apartment, or vacation rental.

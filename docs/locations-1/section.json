@@ -1,0 +1,85 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/locations"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations?locationIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/locations/{locationId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/activities?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/amenitylinks?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/amenitylinks?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/locations/{locationId}/amenitylinks/{amenityId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/details?endDate=&locationIds=&returnSections=&startDate=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/details?endDate=&returnSections=&startDate="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/dynamicfields?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/locations/{locationId}/dynamicfields/{fieldId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/images?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/priorities?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/priorities?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/locations/{locationId}/priorities"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/locations/search?defaultSelection=&segmentId=&sort=LOCATION_PRIORITY_ASC"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locations/{locationId}/subjects"
+    }
+  ]
+}

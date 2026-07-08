@@ -1,0 +1,17 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/locks/reasons?page=&size=&sort="
+    }
+  ]
+}

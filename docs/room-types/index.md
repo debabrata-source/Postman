@@ -1,0 +1,1 @@
+The classification of rooms based on their characteristics, such as bedroom, bathroom, or living area.

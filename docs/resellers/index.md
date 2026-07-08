@@ -1,0 +1,1 @@
+An individual or entity that sells products or services on behalf of another company.

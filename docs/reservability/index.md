@@ -1,0 +1,1 @@
+Actual count of available units per period or date without considering if it's allowed to arrive or depart on the certain date.

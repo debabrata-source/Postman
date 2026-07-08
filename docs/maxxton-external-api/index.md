@@ -1,0 +1,3 @@
+The document comprises RESTful web services which refers to the methods (GET, POST, PUT, DELETE), endpoints of the APIs, required fields and explains what services consumes and produces.
+It also tells what data is to be sent in request body and what will be returned in response body.
+The dates that are being entered along with time depicts the UTC time zone and the one without time represents just that day. Milliseconds in date-time fields are included where applicable; however, if the millisecond value is 000, it may be omitted from the representation.

@@ -1,0 +1,81 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/customers"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers?email=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/titles?filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/customers/{customerId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/communications?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/customers/{customerId}/credentials"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/customerstatus"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/customers/{customerId}/customerstatus"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/files?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/files/{fileId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/customers/login"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/loyalty?returnTransaction="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/loyalty/transactions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/customers/{customerId}/memos"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/{customerId}/memos?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/customers/phonecalls?employeeGroupId=&page=&size=&sort=&filter="
+    }
+  ]
+}

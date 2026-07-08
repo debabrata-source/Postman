@@ -1,0 +1,1 @@
+The sales channel through which products or services are delivered to customers.

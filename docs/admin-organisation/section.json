@@ -1,0 +1,77 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/adminorganisations"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/accounts?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/exchangerates"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/exchangerates?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/financialtransactions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/financialtransactions/{financialTransactionReportId}/journals?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/financialtransactions/{financialTransactionReportId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/ownerfinancialtransactions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/ownerfinancialtransactions/{ownerFinancialTransactionReportId}/journals/entries?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/ownerfinancialtransactions/{ownerFinancialTransactionReportId}/journals?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/ownerfinancialtransactions/{ownerFinancialTransactionId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/revenuedistributions?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/revenuedistributions/{revenueDistributionId}/journals?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/adminorganisations/{adminOrganisationId}/revenuedistributions/{revenueDistributionId}"
+    }
+  ]
+}

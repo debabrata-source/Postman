@@ -1,0 +1,1 @@
+The category or classification of rates based on their application and currency such as BAR rate or tour operator rate.

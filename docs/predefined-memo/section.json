@@ -1,8 +1,5 @@
 {
-  "endpoints": {
-    "method": "",
-    "path": ""
-  },
+  "endpoints": {},
   "request": null,
   "showBaseUrl": false,
   "showLanguageBox": false,
@@ -11,5 +8,10 @@
   "errorCodes": [],
   "statusCodes": [],
   "dataExample": [],
-  "endpointSummary": []
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/predefinedmemos?page=&size=&sort=&filter="
+    }
+  ]
 }

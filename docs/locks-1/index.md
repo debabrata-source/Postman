@@ -1,0 +1,1 @@
+A lock will make the accommodationtype or unit unavailable to book because of a certain reason like maintenance.

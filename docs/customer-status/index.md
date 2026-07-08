@@ -1,0 +1,1 @@
+A certain label that is given to a customer. This can be assigned automatically or manually.

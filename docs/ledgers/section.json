@@ -1,0 +1,37 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "responses": [],
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/ledgers/{ledgerId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/ledgers?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/ledgers/{ledgerId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/ledgers/groups/{ledgerGroupId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/ledgers/groups?returnLocationGroups=&page=&size=&sort=&filter="
+    }
+  ]
+}

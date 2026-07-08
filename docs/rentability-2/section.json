@@ -1,0 +1,25 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/rentability/config?distributionChannelId=&resourceId=&resourceType=ACCOMMODATIONTYPE&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/rentability/sets?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/rentability/stays?distributionChannelId=&maxArrival=&maxDuration=&minArrival=&minDuration=&resourceId=&page=&size=&sort="
+    }
+  ]
+}

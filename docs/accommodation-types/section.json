@@ -1,0 +1,181 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}?returnWorkOrderTypes="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes?brand=&countryCode=&resourceIds=&returnWorkOrderTypes=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/additions?type=ACCOMMODATIONTYPE&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/additions?type=ACCOMMODATIONTYPE&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/allotments?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/allotments/releases?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/amenitylinks?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/amenitylinks?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/availability/additions?advancedCalculation=&distributionChannelCode=&reservationCategoryCode=&resourceId=&showMoments=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/availability?arrivalDateFrom=&arrivalDateTo=&distributionChannelCode=&duration=&includeAllPrices=&includeHiddenOffers=&locationId=&offerCode=&offerId=&rateTypeId=&resourceId="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/availability/implies?advancedCalculation=&distributionChannelCode=&reservationCategoryCode=&resourceId=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/availability/preferences?advancedCalculation=&distributionChannelCode=&reservationCategoryCode=&resourceId="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/budgets"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/budgets?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/calculateprices?removeWarrant="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/capacities?returnWorkOrderTypes=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/details?endDate=&returnSections=&returnWorkOrderTypes=&startDate="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/details?brand=&endDate=&resourceIds=&returnSections=&returnWorkOrderTypes=&startDate=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/dynamicfields?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/dynamicfields/{fieldId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/images?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/implies?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/implies?parentImplies=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/kinds?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/locks?unitId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/occupancy?endDate=&startDate=&page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/priorities?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/priorities/{accommodationtypePriorityId}/targetAmounts?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/qualitylevels?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/rates/batch"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/rates"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/rates?rateTypeIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/releases?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/rentability"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/representations"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/representations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/rooms?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/search?defaultSelection=&sort="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/accommodationtypes/arrivalrangesearch"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/accommodationtypes/{resourceId}/videos?page=&size=&sort=&filter="
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+A comprehensive record of all financial transactions, including accounts and balances.

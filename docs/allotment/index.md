@@ -1,0 +1,1 @@
+The allocation of a certain number of accommodation types or units for a specific period or purpose per distribution channel.

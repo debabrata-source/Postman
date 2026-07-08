@@ -1,0 +1,1 @@
+Triangle view of rentability, accommodation type, and distribution channel. Representations exist to connect a (set) of rentability rules to a (group) of distribution channels.

@@ -1,0 +1,1 @@
+The rules and conditions that define how an accommodation, product or services property can be booked or used. For example, the allowed arrival and departure date for an accommodation type.

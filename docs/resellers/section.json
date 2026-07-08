@@ -1,0 +1,25 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/resellers?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/resellers/{resellerId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/resellers/{resellerId}/stopsells?stopSellType=BLOCKING&page=&size=&sort="
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+A main level to funnel the companies, locations, employees, accounts and other properties that exclusively belongs to that Admin organisation.

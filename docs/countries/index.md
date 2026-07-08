@@ -1,0 +1,1 @@
+All available countries, the countries are configured in Maxxton.

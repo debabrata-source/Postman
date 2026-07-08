@@ -1,0 +1,113 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/owners"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners?returnFiscalType=&returnSharedOwnerShips=false&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}?returnSharedOwnerShips=false"
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/owners/{ownerId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/accommodationtypes?code=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/accommodationtypes?code=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/associations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/communications?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/owners/{ownerId}/credentials"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/owners/{ownerId}/files/{fileId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/files?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/files/{fileId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/owners/{ownerId}/files/upload?fileTypeId="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/groups?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/owners/login"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/reservations/details?contractType=&employeeId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/settlements/{settlementId}/entries?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/settlements?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/owners/{ownerId}/units"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/units?code=&resourceId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/ownergroups/{ownerGroupId}/units?code=&resourceId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/units?code=&resourceId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/units/{unitId}/ownerships?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/owners/{ownerId}/units/{unitId}/reservations?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/owners/{ownerId}/units/{unitId}"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+A physical place or address where accommodations or services are provided like a location.

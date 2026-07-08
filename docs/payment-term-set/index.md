@@ -1,0 +1,1 @@
+Conditions like when and in how many times to pay the full reservation. The payment term sets will result in the instalments, with the actual amount to pay, when chosen in the reservation.

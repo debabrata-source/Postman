@@ -1,0 +1,1 @@
+When certain entities are changed this will result in an event. This event can be used to update/refresh the data in the external system.

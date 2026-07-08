@@ -1,0 +1,1 @@
+The process of reconciling and recording cash transactions to ensure accurate financial records.

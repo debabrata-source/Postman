@@ -1,0 +1,1 @@
+An individual or entity that holds a contractual agreement with the admin organization. Based on this agreement, the owner earns income when specific accommodations they control are utilized in reservations.

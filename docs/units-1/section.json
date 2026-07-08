@@ -1,0 +1,137 @@
+{
+  "endpoints": {},
+  "request": null,
+  "showBaseUrl": false,
+  "showLanguageBox": false,
+  "showRequestDescription": true,
+  "showResponseDescription": true,
+  "errorCodes": [],
+  "statusCodes": [],
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units?returnWorkOrderUnits=&unitIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}?returnWorkOrderUnits="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/units/{unitId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/allotments?distributionChannelId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units/{unitId}/amenitylinks"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/units/{unitId}/amenitylinks/{amenitylinkId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/amenitylinks?page=&size=&sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/amenitylinks?unitId=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/units/{unitId}/amenitylinks/{amenitylinkId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/capacities?returnWorkOrderUnits=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{resourceId}/children"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/contracts?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/details?amenityCategoryCode=&distributionChannelId=&endDate=&returnSections=&returnWorkOrderUnits=&startDate="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/details?amenityCategoryCode=&returnSections=&returnWorkOrderUnits=&unitIds=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/doorlocks/pincodes?endDate=&startDate=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/doorlocktypes?endDate=&lockType=SAFLOKCARD&startDate=&page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/dynamicfields?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/units/{unitId}/dynamicfields/{fieldId}"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/images?page=&size=&sort=&filter="
+    },
+    {
+      "method": "PUT",
+      "path": "/maxxton/v2/units/{unitId}/images/{imageId}"
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units/{unitId}/images/upload"
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/implies?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units/{unitId}/locks"
+    },
+    {
+      "method": "DELETE",
+      "path": "/maxxton/v2/units/{unitId}/locks?endDate=&startDate="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/locks?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/locks?page=&size=&sort=&filter="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/{unitId}/rooms?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units/search?sort="
+    },
+    {
+      "method": "GET",
+      "path": "/maxxton/v2/units/workorders?page=&size=&sort=&filter="
+    },
+    {
+      "method": "POST",
+      "path": "/maxxton/v2/units/{unitId}/workorders/issues"
+    }
+  ]
+}

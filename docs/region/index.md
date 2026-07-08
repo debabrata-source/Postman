@@ -1,0 +1,1 @@
+A geographical area or division used for organizing and managing locations or data.
